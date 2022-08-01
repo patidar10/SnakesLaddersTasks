@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2E3651"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="360dp"
+        android:layout_height="360dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/snake_layout" />
+
+    <TableLayout
+        android:layout_width="360dp"
+        android:layout_height="360dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/imageButton91"
+                style="@style/buttonback"
+
+
+                />
+
+            <ImageButton
+                android:id="@+id/imageButton92"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton93"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton94"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton95"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton96"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton97"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton98"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton99"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton100"
+                style="@style/buttonback" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/imageButton81"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton82"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton83"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton84"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton85"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton86"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton87"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton88"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton89"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton90"
+                style="@style/buttonback" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/imageButton71"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton72"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton73"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton74"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton75"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton76"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton77"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton78"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton79"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton80"
+                style="@style/buttonback" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/imageButton61"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton62"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton63"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton64"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton65"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton66"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton67"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton68"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton69"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton70"
+                style="@style/buttonback" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/imageButton51"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton52"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton53"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton54"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton55"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton56"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton57"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton58"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton59"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton60"
+                style="@style/buttonback" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/imageButton41"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton42"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton43"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton44"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton45"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton46"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton47"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton48"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton49"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton50"
+                style="@style/buttonback" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/imageButton31"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton32"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton33"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton34"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton35"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton36"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton37"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton38"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton39"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton40"
+                style="@style/buttonback" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/imageButton21"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton22"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton23"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton24"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton25"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton26"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton27"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton28"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton29"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton30"
+                style="@style/buttonback" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/imageButton11"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton12"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton13"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton14"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton15"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton16"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton17"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton18"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton19"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton20"
+                style="@style/buttonback" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/imageButton1"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton7"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton8"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton9"
+                style="@style/buttonback" />
+
+            <ImageButton
+                android:id="@+id/imageButton10"
+                style="@style/buttonback" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:background="#E80505"
+        android:text="Player1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.504" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#17FA07"
+        android:text="Player2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.922"
+        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.504" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
